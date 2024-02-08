@@ -4,7 +4,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/main.css">
-    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dokdo&display=swap" rel="stylesheet">
         <title>Point and click adventure</title>
     </head>
     <body>
@@ -24,12 +26,23 @@
             </div>
     
     
-            <div id="inventoryBox">
+            <div id="inventoryBox" class="foreground">
                 <p>Inventory</p>
                 <ul id inventoryList>
                 </ul>
             </div>
-            <img src="img/tilemap1.jpg" alt="map1">
+
+            <div id="door1" class="foreground"></div>
+            <div id="sign" class="foreground"></div>
+
+            <div id="mainCharacter" class="heroCharacter">
+
+
+
+
+            <!--Background-->
+            </div id="tilemap" class="background">
+            <img src="img/tilemap1.jpg" draggable ="false" alt="map1">
         </div>
     
     
